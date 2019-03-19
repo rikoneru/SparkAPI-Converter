@@ -1,0 +1,1 @@
+spark.range(1,10).map(i=>(i%5,2)).groupByKey(_._1).agg(reduceByKeyAggregator((a:Int,b:Int)=>a+b)).collect()

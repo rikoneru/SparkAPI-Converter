@@ -1,0 +1,1 @@
+sc.textFile("filename").take(2)

@@ -1,0 +1,1 @@
+spark.read.text("filename1").union(spark.read.text("filename2")).count()

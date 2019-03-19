@@ -1,0 +1,1 @@
+spark.read.text("filename.txt").collect().map(_.getString(0))

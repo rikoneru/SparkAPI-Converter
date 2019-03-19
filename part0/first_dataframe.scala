@@ -1,0 +1,1 @@
+spark.read.text("filename").first().getString(0)

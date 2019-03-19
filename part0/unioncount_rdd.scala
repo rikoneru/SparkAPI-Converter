@@ -1,0 +1,1 @@
+sc.textFile("filename1").union(sc.textFile("filename2")).count()

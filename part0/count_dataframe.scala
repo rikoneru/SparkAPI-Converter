@@ -1,0 +1,1 @@
+spark.read.text("filename").count()

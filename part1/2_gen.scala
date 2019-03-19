@@ -1,0 +1,1 @@
+spark.range(1,10).map(row=>(((a:Long)=>(a%2))(row), row)).orderBy("_1").map(_._2).collect()

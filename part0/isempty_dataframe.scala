@@ -1,0 +1,1 @@
+spark.read.text("filename").take(1).isEmpty
